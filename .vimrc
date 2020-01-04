@@ -1,6 +1,3 @@
-let &pythonthreehome = substitute(system('dirname $(dirname $(readlink $(which python)))'), '\n\+$', '', '')
-let &pythonthreedll = &pythonthreehome . '/lib/libpython3.7m.dylib'
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
