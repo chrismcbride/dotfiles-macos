@@ -23,9 +23,12 @@ Plug 'airblade/vim-rooter'
 Plug 'davidzchen/vim-bazel'
 Plug 'tweekmonster/gofmt.vim'
 Plug 'google/vim-jsonnet'
+Plug 'yuezk/vim-js'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'MaxMEllon/vim-jsx-pretty'
 
 call plug#end()
-
+let $PATH.=':' . $HOME . '/.nix-profile/bin'
 "make thee comma the leader, and swap the it with ctrl-e
 nnoremap <C-e> ,
 let mapleader = ","
