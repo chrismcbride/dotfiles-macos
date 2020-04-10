@@ -17,7 +17,7 @@ Plug 'derekwyatt/vim-scala'
 Plug 'mileszs/ack.vim'
 Plug 'vim-scripts/trailing-whitespace'
 Plug 'vim-scripts/Align'
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', { 'commit': '6e2afb635ef1e9c7cfd7d84cd8997320ee6b605e' }
 Plug 'airblade/vim-gitgutter'
 Plug 'airblade/vim-rooter'
 Plug 'davidzchen/vim-bazel'
